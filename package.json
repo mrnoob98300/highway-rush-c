@@ -1,0 +1,14 @@
+{
+  "name": "highway-rush-apex-trees",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild source/world.js --bundle --format=iife --minify --outfile=world3d.js"
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
